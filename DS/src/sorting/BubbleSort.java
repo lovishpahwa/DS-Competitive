@@ -1,5 +1,14 @@
 package sorting;
-
+/**
+ * Time complexity:
+ * 
+ * Worst Case -> Big Oh(n*n)
+ * Average Case -> Big Oh(n*n)
+ * Best possible case -> Big Omega (n)
+ * 
+ * @author Lovish Pahwa
+ *
+ */
 public class BubbleSort
 {
    static int[] arr = { 20, 3, 5, 2, 1, 89, 54 };
@@ -66,12 +75,12 @@ public class BubbleSort
    public static void main( String arg[] )
    {
       /**
-       * Time complexity is O(n*n)
+       * Time complexity is Big Oh(n*n)
        */
       normalWay();
 
       /**
-       * Time complexity is O(n) in best case where sorting completed in only one swapping.
+       * Time complexity is Big Omega(n) in best case where sorting completed in only one swapping.
        */
       bestPossibleWay();
    }
