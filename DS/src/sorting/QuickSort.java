@@ -26,7 +26,7 @@ public class QuickSort
    static int[] arr = { 20, 3, 5, 2, 1, 89, 54 };
 
    //a simple print function just for better readability.
-   static void print( int[] array )
+   public static void print( int[] array )
    {
       System.out.println();
       System.out.print( "array - > " );
@@ -59,7 +59,7 @@ public class QuickSort
       return partitionIndex;
    }
 
-   void sort( int[] array, int beg, int end )
+   public void sort( int[] array, int beg, int end )
    {
       if ( beg >= end )
       {
